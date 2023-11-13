@@ -1,0 +1,235 @@
+:root {
+  --primary-text-color-theme-dark: #9da4bd;
+  --primary-text-color-theme-light: #555555;
+  --secondary-text-color-theme-dark: #ffffff;
+  --secondary-text-color-theme-light: #303030;
+  --tertiary-text-color-theme-dark: rgba(157, 164, 189, 0.6);
+  --accent-color: #ff6c00;
+  --primary-font-family: Open Sans, sans-serif;
+  --secondary-font-family: Raleway, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+/* Components */
+.modal-btn {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal-btn-theme-dark {
+  color: var(--secondary-text-color-theme-dark);
+}
+
+.modal-btn-theme-light {
+  color: var(--secondary-text-color-theme-light);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--secondary-text-color-theme-dark);
+  background-color: var(--accent-color);
+}
+
+.social-links-link {
+  color: var(--secondary-text-color-theme-light);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+}
+
+.social-links-link:hover,
+.social-links-link:focus {
+  color: var(--accent-color);
+}
+
+.suptitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.suptitle-theme-dark {
+  color: var(--tertiary-text-color-theme-dark);
+}
+
+.suptitle-theme-light {
+  color: var(--secondary-text-color-theme-light);
+}
+
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+
+.section-description-theme-dark {
+  color: var(--primary-text-color-theme-dark);
+}
+
+.section-description-theme-light {
+  color: var(--primary-text-color-theme-light);
+}
+
+.title {
+  font-family: var(--secondary-font-family);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 2.1px;
+}
+
+.title-theme-light {
+  color: var(--secondary-text-color-theme-light);
+}
+.title-theme-dark {
+  /* color: var(--secondary-text-color-theme-dark); */
+}
+
+/* Header */
+.menu-link {
+  /* color: var(--secondary-text-color-theme-dark); */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-phone {
+  /* color: var(--secondary-text-color-theme-dark); */
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 1.2px;
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  /* color: var(--secondary-text-color-theme-dark); */
+  font-family: var(--secondary-font-family);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 3.6px;
+}
+
+/* About */
+.about-text {
+  color: var(--primary-text-color-theme-light);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.86;
+  letter-spacing: 0.28px;
+}
+
+/* Services */
+.services-list-name,
+.services-list-price {
+  color: var(--primary-text-color-theme-dark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+
+/* Advantages */
+.advantages-list-quantity {
+  color: var(--secondary-text-color-theme-light);
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.36;
+  letter-spacing: 2.1px;
+}
+
+.advantages-list-description {
+  color: var(--secondary-text-color-theme-light);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+}
+
+/* Employees */
+.employees-name {
+  color: var(--secondary-text-color-theme-light);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.39;
+  letter-spacing: 0.36px;
+}
+
+.employees-position {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.36;
+  letter-spacing: 0.28px;
+}
+
+/* Gallery */
+
+/* Contacts */
+.contact-list-link {
+  color: var(--primary-text-color-theme-dark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+
+.contact-info-subtitle {
+  /* color: var(--secondary-text-color-theme-dark); */
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.36;
+  text-transform: uppercase;
+}
+
+.contact-info-date {
+  color: var(--primary-text-color-theme-dark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+}
+
+/* Footer */
+.copyright {
+  color: var(--primary-text-color-theme-dark);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 2.2px;
+}
